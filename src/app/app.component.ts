@@ -12,13 +12,6 @@ import { Component } from '@angular/core';
 // es opcional pero mejor poner el tipo de dato
 // no se aconseja tener mucha logica en el template, es mejor tene la logica en este archivo .ts
 export class AppComponent {
-  titulo: string = 'Contador App';
-  numero: number = 10;
-  base: number = 12;
-  // com this se hace referencia a la propiedad de la clase
-  acumular(valor: number) {
-    this.numero += valor;
-  }
 
 
 }
