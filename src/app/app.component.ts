@@ -8,6 +8,18 @@ import { Component } from '@angular/core';
   // template:'<span>Eric</span>', // en el template se puede escribir el codigo HTML directamente, antes se aconsejaba usar si el HTML tenia menos de 3 lineas
   styleUrls: ['./app.component.css']
 })
+// se puede poner explicitamenete si la variables es publica o privada
+// es opcional pero mejor poner el tipo de dato
+// no se aconseja tener mucha logica en el template, es mejor tene la logica en este archivo .ts
 export class AppComponent {
-  title = 'Contador App';
+  titulo: string = 'Contador App';
+  numero: number = 10;
+  // com this se hace referencia a la propiedad de la clase
+  acumular(valor: number) {
+    this.numero += valor;
+  }
+
+  // restar() {
+  //   this.numero -= 1;
+  // }
 }
