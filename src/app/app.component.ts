@@ -14,12 +14,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
   titulo: string = 'Contador App';
   numero: number = 10;
+  base: number = 12;
   // com this se hace referencia a la propiedad de la clase
   acumular(valor: number) {
     this.numero += valor;
   }
 
-  // restar() {
-  //   this.numero -= 1;
-  // }
+
 }
