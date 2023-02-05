@@ -10,7 +10,16 @@ Agunos comandos importantes:
 > ng new [nombre de la carpete] --> crea un proyecto de angular
 > ng serve -o --> inicializa el proyecto en `http://localhost:4200/`
 > ng generate environments --> crea archvios para variables de entorno
-> '''
+'''
+
+## Bloques Fundamentales:
+```
+MODULOS --> Componentes (HTML + Class TS)
+        --> Rutas (URL)
+        --> Directivas (Componentes , Estructurales , Atributos)
+        --> Servicios (Informacion Centralizada)
+El MODULO agrupa todos los bloques.
+```
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
 
