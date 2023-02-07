@@ -14,10 +14,12 @@
   <div class="col">
     <h3>Agregar</h3>
     <hr />
-    <form action="">
+
+    <form (ngSubmit)="agregar()">
       <input type="text" name="Nombre" placeholder="Nombre" id="1" />
       <input type="number" name="Poder" placeholder="Poder" id="2" />
-      <button>Agregar</button>
+      <button type="submit">Agregar</button>
     </form>
+
   </div>
 </div>
