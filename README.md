@@ -22,6 +22,9 @@ ng generate module nombreDeCarpeta === ng g m nombreDeCarpeta
 Crear Componente
 ng generate component path/nombre === ng g c path/nombre
 
+Baderas
+--skipTests --> para no crear los test del componente
+
 ```
 
 ## Bloques Fundamentales:
