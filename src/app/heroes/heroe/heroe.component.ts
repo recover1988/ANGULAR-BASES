@@ -5,5 +5,9 @@ import { Component } from "@angular/core";
     templateUrl: 'heroe.component.html',
 })
 export class HeroeComponent {
-
+    nombre: string = 'Ironman';
+    edad: number = 45;
+    obtenerNombre() {
+        return `${this.nombre} - ${this.edad}`
+    };
 }
