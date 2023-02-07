@@ -25,3 +25,4 @@ export class HeroeComponent {
     };
 }
 // One way data binding o enlzado en una sola via --> quiere decir que angular solo refresca si algo cambia
+// Se tiene que evitar usar Two way data binding -->> se quiere evitar tener q modificar desde el html

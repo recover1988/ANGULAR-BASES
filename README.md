@@ -10,6 +10,7 @@ Esta aplicacion sirve para practicar los fundamentos de Angular15
 ng new [nombre de la carpeta] --> crea un proyecto de angular 
 ng serve -o --> inicializa el proyecto en `http://localhost:4200/`
 ng generate environments --> crea archvios para variables de entorno
+ng g c pathCarpet --> crea un modulos de Angular con el CSS, Test, Html, TS y lo importa en el app.module.ts
 '''
 
 ## Bloques Fundamentales:

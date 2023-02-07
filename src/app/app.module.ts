@@ -4,13 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { ContadorComponent } from './contador/contador.component';
 import { HeroeComponent } from './heroes/heroe/heroe.component';
+import { ListadoComponent } from './heroes/listado/listado.component';
 // en declarations se colocan los modulos que son las clases que se quieren exportar y usar
 @NgModule({
   // componentes
   declarations: [
     AppComponent,
     ContadorComponent,
-    HeroeComponent
+    HeroeComponent,
+    ListadoComponent
   ],
   // modulos
   imports: [
