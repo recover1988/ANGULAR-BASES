@@ -7,11 +7,22 @@ Esta aplicacion sirve para practicar los fundamentos de Angular15
 ## Agunos comandos importantes:
 
 '''
-ng new [nombre de la carpeta] --> crea un proyecto de angular 
+ng new [nombre de la carpeta] --> crea un proyecto de angular
 ng serve -o --> inicializa el proyecto en `http://localhost:4200/`
 ng generate environments --> crea archvios para variables de entorno
 ng g c pathCarpet --> crea un modulos de Angular con el CSS, Test, Html, TS y lo importa en el app.module.ts
 '''
+
+## Crear:
+
+```
+Crear Modulo
+ng generate module nombreDeCarpeta === ng g m nombreDeCarpeta
+
+Crear Componente
+ng generate component path/nombre === ng g c path/nombre
+
+```
 
 ## Bloques Fundamentales:
 
@@ -22,6 +33,7 @@ MODULOS --> Componentes (HTML + Class TS)
         --> Servicios (Informacion Centralizada)
 El MODULO agrupa todos los bloques.
 ```
+
 ## Otros Codigos Importantes
 
 ```
@@ -30,7 +42,6 @@ El MODULO agrupa todos los bloques.
 #referenciaLocal
 
 ```
-
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
 
