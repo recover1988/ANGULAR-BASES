@@ -22,6 +22,15 @@ MODULOS --> Componentes (HTML + Class TS)
         --> Servicios (Informacion Centralizada)
 El MODULO agrupa todos los bloques.
 ```
+## Otros Codigos Importantes
+
+```
+*ngFor="let algo of algos ; let i = index" --> funciona como un for
+*ngIf="condicion; else referenciaLocal"
+#referenciaLocal
+
+```
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
 
