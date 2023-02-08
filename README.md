@@ -54,6 +54,9 @@ ngForm --> manejar formularios
 los [] son para establecer propiedades
 los () son para escuchar eventos(eventListeners)
 [(ngModel)] --> two way data binding(tanto emite como recibe eventos o propiedades)
+ | pipes --> los pipes sirven para transformar visualmente la info
+ {{1000 | number}} --> lo transforma a 1,000
+
 ```
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
