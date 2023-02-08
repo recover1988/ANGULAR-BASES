@@ -1,22 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+
+import { Personaje } from '../interfaces/dbz.interface';
 
 @Component({
   selector: 'app-personajes',
   templateUrl: './personajes.component.html',
 })
 export class PersonajesComponent {
-  personajes: any[] = [
-    {
-      nombre: 'Goku',
-      poder: 1600
-    },
-    {
-      nombre: 'Vegeta',
-      poder: 1500
-    },
-    {
-      nombre: 'Yamcha',
-      poder: 50
-    },
-  ];
+
+  @Input('data') personajes: Personaje[] = [];
 }
