@@ -46,6 +46,7 @@ El MODULO agrupa todos los bloques.
 
 FormModule --> import in module, es el formulario comun
 ngForm --> manejar formularios
+@Input('data') personajes: Personaje[] = []; pasar info de padre a hijo
 ```
 
 ## Fundamentos;
