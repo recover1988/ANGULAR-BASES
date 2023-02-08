@@ -23,7 +23,7 @@ Crear Componente
 ng generate component path/nombre === ng g c path/nombre
 
 Baderas
---skipTests --> para no crear los test del componente
+--skip-tests --> para no crear los test del componente
 
 ```
 
