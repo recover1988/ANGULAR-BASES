@@ -9,7 +9,7 @@ export class AgregarComponent {
 
   @Input('personajes') personajes: Personaje[] = [];
 
-  nuevo: Personaje = {
+  @Input() nuevo: Personaje = {
     nombre: '',
     poder: 0
   }
