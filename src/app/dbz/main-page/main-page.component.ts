@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 
 import { Personaje } from '../interfaces/dbz.interface';
+import { DbzService } from '../services/dbz.service';
 
 @Component({
   selector: 'app-main-page',
   templateUrl: './main-page.component.html',
 })
 export class MainPageComponent {
+
   personajes: Personaje[] = [
     {
       nombre: 'Goku',
@@ -28,7 +30,9 @@ export class MainPageComponent {
   };
 
   agregarNuevoPersonaje(argumento: Personaje) {
-    // debugger;
     this.personajes.push(argumento)
-  }
+  };
+  // injeccion de dependencias -> injextar servicio
+  constructor(private dbzService: DbzService) { }
+
 }
