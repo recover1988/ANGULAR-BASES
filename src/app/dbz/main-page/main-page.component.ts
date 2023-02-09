@@ -9,30 +9,21 @@ import { DbzService } from '../services/dbz.service';
 })
 export class MainPageComponent {
 
-  personajes: Personaje[] = [
-    {
-      nombre: 'Goku',
-      poder: 1600
-    },
-    {
-      nombre: 'Vegeta',
-      poder: 1500
-    },
-    {
-      nombre: 'Yamcha',
-      poder: 50
-    },
-  ];
+  // personajes: Personaje[] = [];
 
   nuevo: Personaje = {
     nombre: 'Maestro Roshi',
     poder: 1000
   };
 
-  agregarNuevoPersonaje(argumento: Personaje) {
-    this.personajes.push(argumento)
-  };
+  // get personajes():Personaje[]{
+  //   return this.dbzService.personajes
+  // }
+
+
   // injeccion de dependencias -> injextar servicio
-  constructor(private dbzService: DbzService) { }
+  constructor() {
+    // this.personajes = this.dbzService.personajes
+  }
 
 }
